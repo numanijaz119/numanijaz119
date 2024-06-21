@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 I’m currently working on a social media app project in Django.
+- 🔭 Backend Engineer
 
 <!--
 - 🌱 I’m currently learning ...

@@ -1,6 +1,6 @@
 ### Hi there 👋
 
-- 🔭 Backend Engineer
+- 🔭 Full Stack Developer
 
 <!--
 - 🌱 I’m currently learning ...

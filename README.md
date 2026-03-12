@@ -14,7 +14,7 @@
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <img src="https://img.shields.io/badge/Open%20to%20Work-Available-1DBF73?style=for-the-badge&logo=checkmarx&logoColor=white" />
-  <img src="https://img.shields.io/badge/Based%20in-Karachi%2C%20Pakistan%20%F0%9F%87%B5%F0%9F%87%B0-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Based%20in-Lahore%2C%20Pakistan%20%F0%9F%87%B5%F0%9F%87%B0-blue?style=for-the-badge" />
 
 </p>
 

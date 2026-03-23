@@ -7,7 +7,7 @@
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://www.fiverr.com/code_master05" target="_blank">
-    <img src="https://img.shields.io/badge/Fiverr%20Level%202-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" />
+    <img src="https://img.shields.io/badge/Fiverr%20Level%20-1DBF73?style=for-the-badge&logo=fiverr&logoColor=white" />
   </a>
   <a href="mailto:numanijaz119@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
@@ -193,7 +193,6 @@ Full-featured marketplace (OLX/Craigslist-style) with advanced listing managemen
 | 📦 Shipment Records Processed (Hectar Labs) | 97,546+ |
 | 🌍 Global Ports Tracked | 189+ |
 | 🔌 API Endpoints Built | 50+ (Hectar Labs alone) |
-| ⭐ Fiverr Level | Level 2 Seller |
 | 💬 Languages | English (Professional) · Urdu (Native) |
 
 </div>

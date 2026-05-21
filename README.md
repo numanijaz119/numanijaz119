@@ -1,96 +1,124 @@
 # Numan Ijaz
 
-**Full-Stack Developer** — Django · React · Next.js · React Native · AI Integrations
+**Django & AI Backend Engineer** — I build the backend layer that makes 
+AI features work in production: LLM pipelines, multi-tenant SaaS, 
+real-time APIs, and Stripe systems.
 
-Based in Lahore, Pakistan 🇵🇰 · Open to remote roles and freelance projects
+3+ years · 15+ production SaaS products shipped · Lahore, Pakistan 🇵🇰 · Remote
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/numanijaz09/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:numanijaz119@gmail.com)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:minibhai009@gmail.com)
 
 ---
 
 ## About
 
-I'm a full-stack developer with 3+ years of experience building production SaaS applications. I've worked across fintech, logistics, fitness/coaching, and AI tooling — focusing on the infrastructure layers that most products need but are rarely straightforward to build well: auth systems, multi-tenant architectures, real-time features, and LLM integrations.
+I specialize in the infrastructure layers that most SaaS products need 
+but are rarely straightforward to build: multi-tenant architectures, 
+LLM integration pipelines with proper caching and structured outputs, 
+real-time WebSocket systems, and Stripe subscription engines enforced 
+at the API level.
+
+I've shipped production systems across fintech, agricultural trading, 
+fitness/coaching, and geospatial verticals. I care about what breaks 
+in production — not just what works in dev.
 
 ---
 
-## Tech Stack
+## Core Stack
 
-**Backend**
-`Python` `Django` `Django REST Framework` `PostgreSQL` `Redis` `Celery`
+**Backend** — `Python` `Django` `Django REST Framework` `PostgreSQL` 
+`PostGIS` `Redis` `Celery` `WebSockets`
 
-**Frontend**
-`React` `Next.js` `TypeScript` `Tailwind CSS`
+**Frontend** — `React` `Next.js` `TypeScript` `Tailwind CSS`
 
-**Mobile**
-`React Native` (iOS & Android)
+**Mobile** — `React Native` (Expo · iOS & Android)
 
-**AI / LLM**
-`OpenAI GPT` `Anthropic Claude` `Hugging Face`
+**AI / LLM** — `OpenAI GPT-4` `Anthropic Claude` `Prompt Engineering` 
+`Structured Outputs` `RAG`
 
-**Cloud & DevOps**
-`AWS` `GCP` `Docker` `Vercel`
+**Cloud & DevOps** — `AWS (EC2, S3, RDS)` `Docker` `Nginx` 
+`CI/CD` `Vercel` `DigitalOcean`
+
+**Payments** — `Stripe (Subscriptions · Webhooks · Connect)`
 
 ---
 
 ## Selected Projects
 
-### Mappex — Real-Time Map Collaboration
-Geospatial collaboration platform where users create projects by selecting map areas, place markers, add comments, and sync live with teammates.
+### [Mappex](https://github.com/numanijaz119/...) — Real-Time Geospatial Collaboration
+*Django · PostGIS · React Native · Mapbox · Stripe · OpenAI*
 
-`Django` `React` `React Native` `WebSockets` `Mapbox`
+Geospatial SaaS where teams create map projects, place markers, and 
+collaborate in real time. Built the full platform solo.
 
----
-
-### Hectar Labs — Commodity Trading Platform
-Full trade lifecycle management for agricultural traders — P&L automation, shipment tracking across 189+ global ports, and AI-driven arbitrage detection over 97K+ shipment records.
-
-`Django` `Next.js 15` `TypeScript` `Celery` `Redis` `Pandas` `Gemini`
-
----
-
-### Foxing Fit — AI Workout Generator
-SaaS platform for fitness coaches to define their training methodology and generate fully personalized workout plans via GPT — output constrained by coach-defined rules.
-
-`Django` `React` `OpenAI API` `PostgreSQL`
-
----
-
-### Hural.pro — AI Resume Builder
-Resume management system with GPT-driven content optimization, multi-template support, and per-job-description tailoring.
-
-`Django` `Next.js` `OpenAI API` `PostgreSQL`
+- PostGIS point-in-polygon marker validation with **<100ms render time 
+  on 500+ pins**
+- QR-code onboarding via UUID invite tokens → deep link → instant map 
+  access, reducing onboarding friction **75% vs. email invite flows**
+- Tiered Stripe subscription engine (Free / $20 / $200/mo) enforced at 
+  the **API level on every resource creation call** — not just the 
+  frontend — with full webhook lifecycle handling
+- GPT-4 analysis pipeline aggregating markers, comments, and geographic 
+  data into a structured prompt; results cached in a `ProjectAIAnalysis` 
+  model, cutting project review time **~50%**
+- Solved N+1 on unlimited-depth nested comment trees using 
+  `select_related` / `prefetch_related` and database-level reaction 
+  aggregation
 
 ---
 
-### CyberVisionaries — AI Video Prospecting
-Sales tool that automates personalized video prospecting campaigns for B2B outreach at scale.
+### [Hectar Labs](https://github.com/numanijaz119/...) — Commodity Trading Platform
+*Django · Next.js 15 · TypeScript · Celery · Redis · Pandas · Gemini*
 
-`Django` `React` `AI APIs`
+Full trade lifecycle management for agricultural commodity traders.
 
----
-
-### Classified Ads Platform
-Full-featured marketplace with listing management, category hierarchies, user messaging, and admin moderation.
-
-`Django` `React` `PostgreSQL`
+- P&L automation and shipment tracking across **189+ global ports**
+- AI-driven arbitrage detection pipeline over **97,000+ shipment records**
+- Async data processing via Celery with Redis; heavy Pandas workloads 
+  for trade analytics
 
 ---
 
-## GitHub Stats
+### [Foxing Fit](https://github.com/numanijaz119/...) — Coach-Driven Workout Audio Generator
+*Django · DRF · React · MySQL · Pydub*
 
-<div align="center">
-  <img height="170em" src="https://github-readme-stats.vercel.app/api?username=numanijaz119&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF"/>
-  <img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=numanijaz119&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0D1117&title_color=58A6FF"/>
-</div>
+SaaS platform for fitness coaches to encode their training methodology 
+and generate fully personalized, on-brand workout audio sessions.
 
-<div align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=numanijaz119&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF"/>
-  </a>
-</div>
+- Deterministic template engine — no LLM involved — encoding coach's 
+  exact exercise sequencing, round triggers, and sport-specific 
+  progressions
+- Audio merge engine with **per-segment volume normalization 
+  (−20 dBFS target)**, clipping detection, and 192kbps MP3 export
+- Diagnosed and fixed a **silent production audio streaming failure** 
+  caused by missing `Range` headers in CORS config — a bug that doesn't 
+  surface in Django's dev server
+- Multi-language support (Dutch + English) at the data model level, 
+  designed to scale without schema changes
 
 ---
 
-*Available for remote full-time roles and contract work. Feel free to reach out via [LinkedIn](https://www.linkedin.com/in/numanijaz09/) or [email](mailto:numanijaz119@gmail.com).*
+### [Hural.pro](https://github.com/numanijaz119/...) — AI-Powered Resume Screening System
+*Django · Vue.js · Microsoft Graph API · Gmail API · OAuth2 · OpenAI*
+
+Replaced a fully manual candidate screening process with an automated 
+pipeline.
+
+- Full OAuth2 flows for both Gmail and Microsoft Outlook — token 
+  issuance, refresh, and secure storage across both providers
+- Automated resume import from email attachments via Microsoft Graph API 
+  and Gmail API, fed into an OpenAI extraction and ranking pipeline
+
+---
+
+## Let's Work Together
+
+I'm open to **remote contract work and full-time roles** — particularly 
+with startups that need backend-heavy AI integration done properly.
+
+If you're building something with LLM pipelines, SaaS infrastructure, 
+or real-time systems, reach out:
+
+📧 [minibhai009@gmail.com](mailto:minibhai009@gmail.com) · 
+💼 [linkedin.com/in/numanijaz09](https://www.linkedin.com/in/numanijaz09/)

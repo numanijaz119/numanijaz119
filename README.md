@@ -68,7 +68,7 @@ collaborate in real time. Built the full platform solo.
 
 ---
 
-### [Hectar Labs](https://github.com/numanijaz119/...) — Commodity Trading Platform
+### [Hectar Labs](https://hectar.global/) — Commodity Trading Platform
 *Django · Next.js 15 · TypeScript · Celery · Redis · Pandas · Gemini*
 
 Full trade lifecycle management for agricultural commodity traders.
@@ -109,6 +109,15 @@ pipeline.
   issuance, refresh, and secure storage across both providers
 - Automated resume import from email attachments via Microsoft Graph API 
   and Gmail API, fed into an OpenAI extraction and ranking pipeline
+
+---
+
+## Writing & Case Studies
+ 
+> I write about real production problems — not tutorials.
+ 
+- **[How I Built Mappex: A Real-Time Geographic Collaboration Platform — Full-Stack Case Study](https://almondine-aluminum-52e.notion.site/How-I-Built-Mappex-A-Real-Time-Geographic-Collaboration-Platform-Full-Stack-Case-Study-3276ca52b57f807f8742c1c3edf393dd)**
+- **[Foxing Fit: Coach-Driven Workout Script & Audio Generator](https://almondine-aluminum-52e.notion.site/Foxing-Fit-Coach-Driven-Workout-Script-Audio-Generator-3256ca52b57f801d95e6d7d6f0fbc33f)**
 
 ---
 
